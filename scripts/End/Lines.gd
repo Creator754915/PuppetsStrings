@@ -1,0 +1,7 @@
+extends Sprite
+
+
+func _on_Area2D_body_entered(body):
+	print(body.name)
+	if body.name == "Ciseau":
+		print("gy;ki")
